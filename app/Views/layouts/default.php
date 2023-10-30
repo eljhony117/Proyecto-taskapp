@@ -42,7 +42,7 @@
 
                     <a class="button is-rounded is-outlined is-link" href="<?= site_url("/tasks") ?>"><?= lang('App.nav.tasks') ?></a>
                     
-                    <a class="button is-rounded is-danger is-outlined" href="<?= site_url("/logout") ?>"><?= lang('App.nav.logout') ?></a>
+                    <a class="button is-rounded is-warning is-outlined" href="<?= site_url("/logout") ?>"><?= lang('App.nav.logout') ?></a>
 
                 <?php else: ?>
                     
